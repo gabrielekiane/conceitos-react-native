@@ -20,6 +20,7 @@ export default function App() {
     })
   }, []);
 
+  
   async function handleLikeRepository(id) {
     const response = await api.post(`/repositories/${id}/like`);
 
